@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Asm8086</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/classes.css">
+  </head>
+  <body>
+    <div class="bar material bottom">
+      <img draggable="false" src="imgs/run.png" onclick="onRunClick()">
+      <span class="end">By Lorenzo Lotti</span>
+    </div>
+    
+    <div class="container">
+      <textarea id="code" onkeypress="onCodeChanged()" spellcheck="false">0100 </textarea>
+    </div>
+    
+    <div id="output" style="overflow:auto" class="container material top"></div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/runtime.js"></script>
+  </body>
+</html>
